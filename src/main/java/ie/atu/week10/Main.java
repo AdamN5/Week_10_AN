@@ -9,5 +9,8 @@ public class Main
         System.out.println(person.toString());
         System.out.println(Costumer.toString());
 
+        CustomerTest test = new CustomerTest();
+        System.out.println(test);
+
     }
 }
