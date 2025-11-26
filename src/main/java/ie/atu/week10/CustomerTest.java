@@ -2,7 +2,6 @@ package ie.atu.week10;
 
 public class CustomerTest
 {
-
     private Customer part1Customer;
     private Customer part2Customer;
 
