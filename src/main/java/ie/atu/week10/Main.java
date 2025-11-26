@@ -9,6 +9,9 @@ public class Main
         System.out.println(person.toString());
         System.out.println(Costumer.toString());
 
+        PreferredCustomer preferred = new PreferredCustomer("Jane", "Galway", "087999888", 05, true, 500);
+        System.out.println(preferred.toString());
+
         CustomerTest test = new CustomerTest();
         System.out.println(test);
 
