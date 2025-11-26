@@ -11,5 +11,6 @@ public class Main
         firstPerson.setPhoneNumber("087123456");
 
         System.out.println(firstPerson.toString());
+        Customer customer = new Customer();
     }
 }
