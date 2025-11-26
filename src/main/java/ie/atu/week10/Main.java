@@ -10,6 +10,6 @@ public class Main
         firstPerson.setAddress("Crowe Street, Gort");
         firstPerson.setPhoneNumber("087123456");
 
-        System.out.println(firstPerson);
+        System.out.println(firstPerson.toString());
     }
 }
