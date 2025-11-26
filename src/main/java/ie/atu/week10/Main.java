@@ -4,13 +4,10 @@ public class Main
 {
     public static void main(String[] args)
     {
+        Person person = new Person("John", "Kinvarra","087222333");
+        Customer Costumer = new Customer("Adam", "Crowe Street, Gort", "087123456", 42, true);
+        System.out.println(person.toString());
+        System.out.println(Costumer.toString());
 
-        Person firstPerson = new Person();
-        firstPerson.setName("Adam");
-        firstPerson.setAddress("Crowe Street, Gort");
-        firstPerson.setPhoneNumber("087123456");
-
-        System.out.println(firstPerson.toString());
-        Customer customer = new Customer();
     }
 }
